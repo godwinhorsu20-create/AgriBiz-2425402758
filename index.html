@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agribusiness Website</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">AgriBiz</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="articles.html" target="_self">Articles</a></li>
+        <li><a href="products.html" target="_self">Products</a></li>
+        <li><a href="services.html" target="_self">Services</a></li>
+        <li><a href="contact.html" target="_self">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section >
+      <h1>Welcome to AgriBiz</h1>
+      <img src="Images/AGRIC.jpg" alt="Agribusiness supply chain placeholder" width="50%" height="50%">
+      <p>AgriBiz connects farmers, investors, and markets to build profitable and sustainable agricultural enterprises. We focus on innovation, efficiency, and value creation across the food supply chain.</p>
+    </section>
+
+       
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AgriBiz. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
