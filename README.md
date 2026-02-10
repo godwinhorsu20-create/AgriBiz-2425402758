@@ -1,4 +1,4 @@
-# AgriBizProject Overview
+# AgriBiz  Project Overview
 AgriBiz is a responsive, multi‑page website designed to present an agribusiness company’s profile, services, products, and industry insights. The project demonstrates how modern web technologies can be applied to build a professional business presence online, with emphasis on usability, accessibility, and scalability.
 The website is structured into five main pages:
 Home – Introduction and mission statement 
